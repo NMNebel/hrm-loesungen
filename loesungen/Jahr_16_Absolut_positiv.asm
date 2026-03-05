@@ -1,4 +1,4 @@
---  Absolut positiv
+;   Absolut positiv
 
 a:
     inbox
