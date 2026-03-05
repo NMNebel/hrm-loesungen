@@ -1,4 +1,4 @@
--- Kopieretage
+;   Kopieretage
 
     copyfrom 4
     outbox

@@ -1,4 +1,4 @@
--- Poststelle
+;   Poststelle
 
     inbox
     outbox

@@ -1,4 +1,4 @@
---  Maximierungsraum
+;   Maximierungsraum
 
 a:
 b:
@@ -7,7 +7,7 @@ b:
     inbox
     copyto 2
     sub 0
---  kleiner 0
+;   kleiner 0
     jumpn    c
     copyfrom 0
     outbox

@@ -1,4 +1,4 @@
--- Belebte Poststelle
+;   Belebte Poststelle
 
 a:
     inbox

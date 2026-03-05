@@ -1,4 +1,4 @@
--- Vervierzigfacher
+;   Vervierzigfacher
 
 a:
     inbox

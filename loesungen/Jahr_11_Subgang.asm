@@ -1,4 +1,4 @@
--- Subgang
+;   Subgang
 
 a:
     inbox

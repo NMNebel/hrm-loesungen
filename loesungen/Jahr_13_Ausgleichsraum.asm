@@ -1,4 +1,4 @@
---  Ausgleichsraum
+;   Ausgleichsraum
 
 a:
 b:
@@ -6,7 +6,7 @@ b:
     copyto 0
     inbox
     sub 0
---  Gleich?
+;   Gleich?
     jumpz    c
     jump     a
 c:
