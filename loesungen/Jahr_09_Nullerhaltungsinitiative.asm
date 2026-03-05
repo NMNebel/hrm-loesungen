@@ -1,9 +1,10 @@
 -- Nullenvernichter
--- Befehle 4/4 - Schritte 23/23
 
 a:
 b:
     inbox
-    jumpz    b
+    jumpz    c
+    jump     b
+c:
     outbox
     jump     a

@@ -1,0 +1,9 @@
+-- Verdreifacherraum
+
+a:
+    inbox
+    copyto 0
+    add 0
+    add 0
+    outbox
+    jump     a

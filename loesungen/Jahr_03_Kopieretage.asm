@@ -1,5 +1,4 @@
 -- Kopieretage
--- Befehle 6/6 - Schritte 6/6
 
     copyfrom 4
     outbox

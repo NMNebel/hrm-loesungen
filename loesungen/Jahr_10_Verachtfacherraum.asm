@@ -1,0 +1,12 @@
+-- Verachtfacherraum
+
+a:
+    inbox
+    copyto 0
+    add 0
+    copyto 0
+    add 0
+    copyto 0
+    add 0
+    outbox
+    jump     a

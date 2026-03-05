@@ -1,10 +1,9 @@
--- Verwirrungsverwalter
+-- Verregneter Sommer
 
 a:
     inbox
     copyto 0
     inbox
-    outbox
-    copyfrom 0
+    add 0
     outbox
     jump     a
