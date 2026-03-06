@@ -1,4 +1,4 @@
-;   Nullenvernichter
+;   Nullenvernichter, Leistungsoptimierung Befehle
 
 a:
 b:
