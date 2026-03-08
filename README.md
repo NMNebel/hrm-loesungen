@@ -2,6 +2,9 @@
 
 > The programming game you never asked for.
 
+- [Human Resource Machine](https://tomorrowcorporation.com/humanresourcemachine)
+- [Wikipedia](https://en.wikipedia.org/wiki/Human_Resource_Machine)
+
 ## Meine Lösungen
 
 | Jahr                                                    | Name                     | Befehle (Beste Lösung/Genutzte Befehle)                      | Schritte (Beste Lösung/Benötigte Schritte)                   |
@@ -30,17 +33,17 @@
 
 *Hinweis*: Das bedeutet, dass man für einige Jahre und deren Lösung zwei Programme benötigt. Das wurde mir erst durch einen Tipp von Ralf klar. Daher dieser Hinweis von mir an dieser Stelle.
 
-## Verfügbare Befehle
+## Befehle
 
-| Befehl       | Beschreibung                                                 | Opcode        |
-| ------------ | ------------------------------------------------------------ | ------------- |
-| -> inbox     | Das nächste Ding aus der INBOX nehmen.                       | `inbox`       |
-| outbox ->    | Legen Sie was Sie halten in die OUTBOX.                      | `outbox`      |
-| copyfrom     | Zu einer bestimmten Kachel auf dem Boden gehen und eine Kopie von dem aufnehmen, was dort ist. | `copyfrom nr` |
-| copyto       | Eine Kopie des Inhalts Ihrer Hände auf einer bestimmten Kachel auf dem Boden ablegen. | `copyto nr`   |
-| add          | Den Inhalt einer bestimmten Kachel auf dem Boden zum Inhalt Ihrer Hände addieren. Das Ergebnis erhalten Sie in der Hand zurück. | `add nr`      |
-| sub          | Den Inhalt einer bestimmten Kachel auf dem Boden zum Inhalt Ihrer Hände subtrahieren. Das Ergebnis erhalten Sie in der Hand zurück. | `sub nr`      |
-| jump         | An eine neue Position in Ihrem Programm springen. Sie können rückwärts springen, um Schleifen zu erzeugen, oder verwärts springen, um ganze Abschnitte zu überspringen. Die Möglichkeiten sind unbegrenzt. | `jump label`  |
-| jump if zero | Springen, aber nur, wenn Sie gerade eine NULL in den Händen halten. Ansonsten mit der nächsten Zeile Ihres Programms fortfahren. | `jumpz label` |
-| jump if neg  | Springen, aber nur, wenn Sie gerade eine negative Zahl in den Händen halten. Ansonsten mit der nächsten Zeile Ihres Programms fortfahren. | `jumpn label` |
-| ...          | Nutzen Sie Kommentare um hilfreiche Notizen für sich selbst in Ihrem Programm zu hinterlassen. Beeinflußt Ihr Programm in keiner Weise, außer dass es einfacher für Sie zu lesen wird. | --            |
+| Befehl       | Beschreibung                                                 | Opcode                 |
+| ------------ | ------------------------------------------------------------ | ---------------------- |
+| -> inbox     | Das nächste Ding aus der INBOX nehmen.                       | `inbox`                |
+| outbox ->    | Legen Sie was Sie halten in die OUTBOX.                      | `outbox`               |
+| copyfrom     | Zu einer bestimmten Kachel auf dem Boden gehen und eine Kopie von dem aufnehmen, was dort ist. | `copyfrom <Kachel-Nr>` |
+| copyto       | Eine Kopie des Inhalts Ihrer Hände auf einer bestimmten Kachel auf dem Boden ablegen. | `copyto <Kachel-Nr>`   |
+| add          | Den Inhalt einer bestimmten Kachel auf dem Boden zum Inhalt Ihrer Hände addieren. Das Ergebnis erhalten Sie in der Hand zurück. | `add <Kachel-Nr>`      |
+| sub          | Den Inhalt einer bestimmten Kachel auf dem Boden zum Inhalt Ihrer Hände subtrahieren. Das Ergebnis erhalten Sie in der Hand zurück. | `sub <Kachel-Nr>`      |
+| jump         | An eine neue Position in Ihrem Programm springen. Sie können rückwärts springen, um Schleifen zu erzeugen, oder verwärts springen, um ganze Abschnitte zu überspringen. Die Möglichkeiten sind unbegrenzt. | `jump <label>`         |
+| jump if zero | Springen, aber nur, wenn Sie gerade eine NULL in den Händen halten. Ansonsten mit der nächsten Zeile Ihres Programms fortfahren. | `jumpz <label>`        |
+| jump if neg  | Springen, aber nur, wenn Sie gerade eine negative Zahl in den Händen halten. Ansonsten mit der nächsten Zeile Ihres Programms fortfahren. | `jumpn <label>`        |
+| ...          | Nutzen Sie Kommentare um hilfreiche Notizen für sich selbst in Ihrem Programm zu hinterlassen. Beeinflußt Ihr Programm in keiner Weise, außer dass es einfacher für Sie zu lesen wird. | --                     |
