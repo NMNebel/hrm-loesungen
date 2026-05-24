@@ -37,17 +37,17 @@
 
 ## Befehle
 
-| Befehl       | Beschreibung                                                 | Opcode                 |
-| ------------ | ------------------------------------------------------------ | ---------------------- |
-| -> inbox     | Das nächste Ding aus der INBOX nehmen.                       | `inbox`                |
-| outbox ->    | Legen Sie was Sie halten in die OUTBOX.                      | `outbox`               |
-| copyfrom     | Zu einer bestimmten Kachel auf dem Boden gehen und eine Kopie von dem aufnehmen, was dort ist. | `copyfrom <Kachel-Nr>` |
-| copyto       | Eine Kopie des Inhalts Ihrer Hände auf einer bestimmten Kachel auf dem Boden ablegen. | `copyto <Kachel-Nr>`   |
-| add          | Den Inhalt einer bestimmten Kachel auf dem Boden zum Inhalt Ihrer Hände addieren. Das Ergebnis erhalten Sie in der Hand zurück. | `add <Kachel-Nr>`      |
-| sub          | Den Inhalt einer bestimmten Kachel auf dem Boden zum Inhalt Ihrer Hände subtrahieren. Das Ergebnis erhalten Sie in der Hand zurück. | `sub <Kachel-Nr>`      |
-| bumb+        | Addiert EINS einer bestimmten Kachel auf dem Boden. Das Ergebnis erhalten Sie sofort in die Hand. Und der Bequemlichkeit halber wird es auch auf den Boden geschrieben. | `bumpup <Kachel-Nr>`   |
-| bumb-        | Subtrahiert EINS von einer bestimmten Kachel auf dem Boden. Das Ergebnis erhalten Sie sofort in die Hand. Und der Bequemlichkeit halber wird es auch auf den Boden geschrieben. | `bumpdn <Kachel-Nr>`   |
-| jump         | An eine neue Position in Ihrem Programm springen. Sie können rückwärts springen, um Schleifen zu erzeugen, oder verwärts springen, um ganze Abschnitte zu überspringen. Die Möglichkeiten sind unbegrenzt. | `jump <label>`         |
-| jump if zero | Springen, aber nur, wenn Sie gerade eine NULL in den Händen halten. Ansonsten mit der nächsten Zeile Ihres Programms fortfahren. | `jumpz <label>`        |
-| jump if neg  | Springen, aber nur, wenn Sie gerade eine negative Zahl in den Händen halten. Ansonsten mit der nächsten Zeile Ihres Programms fortfahren. | `jumpn <label>`        |
-| ...          | Nutzen Sie Kommentare um hilfreiche Notizen für sich selbst in Ihrem Programm zu hinterlassen. Beeinflußt Ihr Programm in keiner Weise, außer dass es einfacher für Sie zu lesen wird. | --                     |
+| Befehl                | Beschreibung                                                 | Opcode                 |
+| --------------------- | ------------------------------------------------------------ | ---------------------- |
+| -> inbox              | Das nächste Ding aus der INBOX nehmen.                       | `INBOX`                |
+| outbox ->             | Legen Sie was Sie halten in die OUTBOX.                      | `OUTBOX`               |
+| copyfrom              | Zu einer bestimmten Kachel auf dem Boden gehen und eine Kopie von dem aufnehmen, was dort ist. | `COPYFROM <Kachel-Nr>` |
+| copyto                | Eine Kopie des Inhalts Ihrer Hände auf einer bestimmten Kachel auf dem Boden ablegen. | `COPYTO <Kachel-Nr>`   |
+| add                   | Den Inhalt einer bestimmten Kachel auf dem Boden zum Inhalt Ihrer Hände addieren. Das Ergebnis erhalten Sie in der Hand zurück. | `ADD <Kachel-Nr>`      |
+| sub                   | Den Inhalt einer bestimmten Kachel auf dem Boden zum Inhalt Ihrer Hände subtrahieren. Das Ergebnis erhalten Sie in der Hand zurück. | `SUB <Kachel-Nr>`      |
+| bumb +                | Addiert EINS einer bestimmten Kachel auf dem Boden. Das Ergebnis erhalten Sie sofort in die Hand. Und der Bequemlichkeit halber wird es auch auf den Boden geschrieben. | `BUMPUP <Kachel-Nr>`   |
+| bumb -                | Subtrahiert EINS von einer bestimmten Kachel auf dem Boden. Das Ergebnis erhalten Sie sofort in die Hand. Und der Bequemlichkeit halber wird es auch auf den Boden geschrieben. | `BUMPDN <Kachel-Nr>`   |
+| jump                  | An eine neue Position in Ihrem Programm springen. Sie können rückwärts springen, um Schleifen zu erzeugen, oder verwärts springen, um ganze Abschnitte zu überspringen. Die Möglichkeiten sind unbegrenzt. | `JUMP <Label>`         |
+| jump if zero          | Springen, aber nur, wenn Sie gerade eine NULL in den Händen halten. Ansonsten mit der nächsten Zeile Ihres Programms fortfahren. | `JUMPZ <Label>`        |
+| jump if neg /negative | Springen, aber nur, wenn Sie gerade eine negative Zahl in den Händen halten. Ansonsten mit der nächsten Zeile Ihres Programms fortfahren. | `JUMPN <Label>`        |
+| ...                   | Nutzen Sie Kommentare um hilfreiche Notizen für sich selbst in Ihrem Programm zu hinterlassen. Beeinflußt Ihr Programm in keiner Weise, außer dass es einfacher für Sie zu lesen wird. | --                     |

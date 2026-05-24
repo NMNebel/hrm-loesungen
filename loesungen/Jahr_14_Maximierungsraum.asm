@@ -2,17 +2,16 @@
 
 a:
 b:
-    inbox
-    copyto 0
-    inbox
-    copyto 2
-    sub 0
-;   kleiner 0
-    jumpn    c
-    copyfrom 0
-    outbox
-    jump     b
+    INBOX   
+    COPYTO   0
+    INBOX   
+    COPYTO   2
+    SUB      0
+    JUMPN    c
+    COPYFROM 2
+    OUTBOX  
+    JUMP     a
 c:
-    copyfrom 2
-    outbox
-    jump     a
+    COPYFROM 0
+    OUTBOX  
+    JUMP     b

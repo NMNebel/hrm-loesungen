@@ -1,9 +1,9 @@
 ;   Verregneter Sommer
 
-a:
-    inbox
-    copyto 0
-    inbox
-    add 0
-    outbox
-    jump     a
+A:
+    INBOX
+    COPYTO 0
+    INBOX
+    ADD 0
+    OUTBOX
+    JUMP     A

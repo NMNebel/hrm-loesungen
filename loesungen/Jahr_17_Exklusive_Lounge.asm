@@ -1,36 +1,36 @@
 ;   Exklusive Lounge
 
 a:
-    inbox
-    jumpn    b ;   Input 1: -
+    INBOX
+    JUMPN    b ;   Input 1: -
 ;   Input 1: +
 
-    inbox
-    jumpn    d ;   Input 2: -
+    INBOX
+    JUMPN    d ;   Input 2: -
 ;   Input 1: +
 ;   Input 2: +
-    jump     e
+    JUMP     e
 
 b:
 ;   Input 1: -
-    inbox
-    jumpn    e ;   Input 2: -
+    INBOX
+    JUMPN    e ;   Input 2: -
     
 ;   Input 1: -
 ;   Input 2: +
 
 ;   Vorzeichen ungleich, 1 in Outbox
 d:
-    copyfrom 5
-    outbox
+    COPYFROM 5
+    OUTBOX
 
 ;   Nächsten Werte aus Inbox holen
-    jump     a
+    JUMP     A
 
 ;   Vorzeichen gleich, 0 in Outbox
 e:
-    copyfrom 4
-    outbox
+    COPYFROM 4
+    OUTBOX
 
 ;   Nächsten Werte aus Inbox holen
-    jump     a
+    JUMP     a

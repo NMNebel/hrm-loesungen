@@ -1,7 +1,6 @@
 ;   Belebte Poststelle, Leistungsoptimierung Befehle
 
-
-a:
-    inbox
-    outbox
-    jump     a
+A:
+    INBOX
+    OUTBOX
+    JUMP     A

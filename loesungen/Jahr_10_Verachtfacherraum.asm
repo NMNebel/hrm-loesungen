@@ -1,12 +1,12 @@
 ;   Verachtfacherraum
 
-a:
-    inbox
-    copyto 0
-    add 0
-    copyto 0
-    add 0
-    copyto 0
-    add 0
-    outbox
-    jump     a
+A:
+    INBOX
+    COPYTO 0
+    ADD 0
+    COPYTO 0
+    ADD 0
+    COPYTO 0
+    ADD 0
+    OUTBOX
+    JUMP     A

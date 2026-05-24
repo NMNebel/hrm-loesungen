@@ -1,17 +1,17 @@
 ;   Vervierzigfacher
 
-a:
-    inbox
-    copyto 0
-    add 0
-    add 0
-    add 0
-    add 0
-    copyto 2
-    add 2
-    copyto 2
-    add 2
-    copyto 2
-    add 2
-    outbox
-    jump     a
+A:
+    INBOX
+    COPYTO 0
+    ADD 0
+    ADD 0
+    ADD 0
+    ADD 0
+    COPYTO 2
+    ADD 2
+    COPYTO 2
+    ADD 2
+    COPYTO 2
+    ADD 2
+    OUTBOX
+    JUMP     A

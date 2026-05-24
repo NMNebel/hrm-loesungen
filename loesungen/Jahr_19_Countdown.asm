@@ -1,26 +1,26 @@
 ;   Countdown
 
 a:
-    inbox
-    copyto 0
-    jumpz c:
+    INBOX
+    COPYTO 0
+    JUMPN    c
 
 b:    
 ;   Zahl positiv oder 0
-    outbox
-    bump- 0
-    jumpn a
-    jump b
+    OUTBOX
+    BUMPDN 0
+    JUMPN    a
+    JUMP     b
 
 
 c:
 ;   Zahl negativ
-    outbox
-    bump+ 0
-    jumpz d:
-    jump c
+    OUTBOX
+    BUMPUP 0
+    JUMPZ    d
+    JUMP     c
     
 d:
 ;   Die 0 auszugeben
-    outbox
-    jump a:
+    OUTBOX
+    JUMP     a

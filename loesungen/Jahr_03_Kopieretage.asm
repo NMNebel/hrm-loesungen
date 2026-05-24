@@ -1,8 +1,8 @@
 ;   Kopieretage
 
-    copyfrom 4
-    outbox
-    copyfrom 0
-    outbox
-    copyfrom 3
-    outbox
+    COPYFROM 4
+    OUTBOX
+    COPYFROM 0
+    OUTBOX
+    COPYFROM 3
+    OUTBOX

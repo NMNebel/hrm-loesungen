@@ -1,8 +1,8 @@
 ;   Nullenvernichter
 
-a:
-b:
-    inbox
-    jumpz    b
-    outbox
-    jump     a
+A:
+B:
+    INBOX
+    JUMPZ    B
+    OUTBOX
+    JUMP     A

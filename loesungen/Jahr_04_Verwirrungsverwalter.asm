@@ -1,10 +1,10 @@
 ;   Verwirrungsverwalter
 
-a:
-    inbox
-    copyto 0
-    inbox
-    outbox
-    copyfrom 0
-    outbox
-    jump     a
+A:
+    INBOX
+    COPYTO 0
+    INBOX
+    OUTBOX
+    COPYFROM 0
+    OUTBOX
+    JUMP     A

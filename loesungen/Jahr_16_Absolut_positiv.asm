@@ -1,13 +1,13 @@
 ;   Absolut positiv
 
 a:
-    inbox
-    jumpn    b
-    jump     c
+    INBOX   
+    JUMPN    b
+    JUMP     c
 b:
-    copyto 0
-    sub 0
-    sub 0
+    COPYTO   0
+    SUB      0
+    SUB      0
 c:
-    outbox
-    jump     a
+    OUTBOX  
+    JUMP     a

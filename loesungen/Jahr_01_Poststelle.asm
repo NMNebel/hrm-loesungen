@@ -1,8 +1,8 @@
 ;   Poststelle
 
-    inbox
-    outbox
-    inbox
-    outbox
-    inbox
-    outbox
+    INBOX
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
+    OUTBOX

@@ -1,17 +1,17 @@
 ;   Nullenvernichter, Leistungsoptimierung Schritte
 
-a:
-b:
-c:
-    inbox
-    jumpz    d
-    jump     b
-d:
-    outbox
-;   naechsten Wert einlesen
-    inbox
-    jumpz    e
-    jump     c
-e:
-    outbox
-    jump     a
+A:
+B:
+C:
+    INBOX
+    JUMPZ    D
+    JUMP     B
+D:
+    OUTBOX
+;   NAECHSTEN WERT EINLESEN
+    INBOX
+    JUMPZ    E
+    JUMP     C
+E:
+    OUTBOX
+    JUMP     A
